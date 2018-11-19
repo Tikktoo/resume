@@ -1,0 +1,206 @@
+*{margin:0;padding:0;box-sizing: border-box}
+*::before{box-sizing: border-box}
+*::after{box-sizing: border-box}
+a,ul,ol,button{list-style: none;text-decoration: none;color:inherit;}
+
+body{
+    font-size:14px;
+}
+
+.page{
+    position: relative;
+}
+.downloadMyResume{
+    display: none;
+}
+.buttonsss{
+    
+        display: none;
+    }
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+[v-cloak]{
+    display: none;
+}
+
+
+/**
+resume***/
+main{
+    width:100vw;
+    background:rgb(246,246,246);
+    position: absolute;
+    left:50%;
+    top:0;
+    transform: translateX(-50%)
+}
+
+.resume{
+    width:90vw;
+    position: relative;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    margin:10vw 0;
+}
+
+
+.infoShow{
+
+    margin:1.2vw 0;
+}
+
+.infoShow .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:7.1vw
+
+}
+
+.infoShow .name h1{
+    font-size:24px;
+    margin-bottom:1vw;
+}
+.infoShow .infomation{
+    margin-left:1.34vw;
+}
+.infoShow .infomation .iconAndContent{
+    font-size:14px;
+    display: flex;
+    flex-direction: row;
+    margin:10px 0;
+}
+
+.infoShow .infomation .icon{
+    margin-right:1.22vw;
+    margin-top:2px;
+}
+
+.statementShow p{
+    width:100%;
+    margin-bottom: 10px;
+}
+.oneProject .projectShow{
+    border:1px dashed #888;
+    margin-bottom:10px;
+    padding: 1vw 0;
+}
+
+.projectShow .pictureAndLink .projectLink{
+    width:90%;
+    position: relative;
+    left:50%;
+    transform: translateX(-48%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projectShow .pictureAndLink .projectLink .links{
+    margin:1.8vw 0;
+    margin-left: -5vw;
+}
+
+
+.projectShow .pictureAndLink .projectLink .links a:active{
+    color:blue;
+}
+
+.projectShow .projectPicture{
+    width:90%;
+    left:50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+.projectShow .content{
+    position: relative;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    padding:0 4vw;
+
+}
+.projectShow .content .project{
+    margin:1.5vw 0;
+}
+
+.projectShow .content .project span{
+    line-height:25px;
+}
+
+.projectShow .content strong{
+    padding-right:5px;
+}
+
+
+.projectShow .projectDescribe{
+    width:100%;
+    margin-bottom: 1.9vw;
+}
+
+.skills ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills ul li{
+    width:100%;
+}
+.skillShow .skillName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skillShow .skillName .name{
+    font-weight: bold;
+}
+
+.skillShow .skillDescribe{
+    display: block;
+    margin-top: 6px;
+    line-height: 25px;
+    overflow:hidden;
+}
+
+.skillShow{
+    border:1px dashed #888;
+    margin-bottom:1.9vw;
+    padding:5px 1.2vw;
+}
+
+.statement .statementShow p{
+    line-height: 25px;
+}
+
+
+/* 组件 */
+
+main .splitLine p{
+    margin-bottom:6px;
+    margin-top:3.2vw;
+    font-size: 14px;
+}
+main .splitLine .outLine{
+    border-top:2px solid rgb(222,222,222);
+    width:100%;
+    position: relative;
+    margin-bottom:3.8vw;
+}
+
+main .splitLine .inLine{
+    border-top:2px solid rgb(32,32,32);
+    width:10%;
+    position: absolute;
+    bottom:0px;
+    left:0;    
+}

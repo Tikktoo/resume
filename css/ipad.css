@@ -1,0 +1,204 @@
+*{margin:0;padding:0;box-sizing: border-box}
+*::before{box-sizing: border-box}
+*::after{box-sizing: border-box}
+a,ul,ol,button{list-style: none;text-decoration: none;color:inherit;}
+
+body{
+    font-size:14px;
+}
+
+.page{
+    position: relative;
+}
+
+.buttonsss{
+
+    display: none;
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+[v-cloak]{
+    display: none;
+}
+
+.personalInformation{
+    display: none
+}
+
+/**
+resume***/
+main{
+    width:100vw;
+    background:rgb(246,246,246);
+    position: absolute;
+    left:50%;
+    top:0;
+    transform: translateX(-50%)
+}
+
+.resume{
+    width:84vw;
+    position: relative;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    margin:6.1vw 0;
+}
+
+.resume .info{
+    width:79.5vw;
+    height:14.2vw;
+}
+
+.infoShow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:1.2vw 0;
+}
+
+.infoShow .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.infoShow .name h1{
+    font-size:24px;
+    margin-bottom:1vw;
+}
+.infoShow .infomation{
+    margin-left:7.34vw;
+}
+.infoShow .infomation .iconAndContent{
+    font-size:14px;
+    display: flex;
+    flex-direction: row;
+    margin:2px 0;
+}
+
+.infoShow .infomation .icon{
+    margin-right:1.22vw;
+    margin-top:2px;
+}
+
+.statementShow p{
+    width:100%;
+    margin-bottom: 10px;
+}
+.oneProject .projectShow{
+    border:1px dashed #888;
+    margin-bottom:10px;
+    padding: 10px 0;
+}
+.projectShow .pictureAndLink{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectShow .pictureAndLink .projectLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectShow .pictureAndLink .projectLink .links{
+    margin:1.8vw 0;
+    margin-left: -5vw;
+}
+
+
+.projectShow .pictureAndLink .projectLink .links a:active{
+    color:blue;
+}
+
+.projectShow .projectPicture{
+    width:63.8vw;
+    height:34.5vw;
+    position: relative;
+    margin-bottom:1.8vw;
+}
+.projectShow .content{
+    position: relative;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    padding:0 4vw;
+
+}
+.projectShow .content .project{
+    margin:5px 0;
+}
+
+.projectShow .content strong{
+    padding-right:5px;
+}
+
+
+.projectShow .projectDescribe{
+    width:100%;
+    margin-bottom: 1.9vw;
+}
+
+.skills ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills ul li{
+    width:100%;
+}
+.skillShow .skillName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skillShow .skillName .name{
+    font-weight: bold;
+}
+
+.skillShow .skillDescribe{
+    display: block;
+    margin-top: 6px;
+    overflow:hidden;
+}
+
+.skillShow{
+    border:1px dashed #888;
+    margin-bottom:1.9vw;
+    padding:5px 1.2vw;
+}
+
+
+/* 组件 */
+
+main .splitLine p{
+    margin-bottom:6px;
+    margin-top:2.2vw;
+    font-size: 14px;
+}
+main .splitLine .outLine{
+    border-top:2px solid rgb(222,222,222);
+    width:100%;
+    position: relative;
+    margin-bottom:2.2vw;
+}
+
+main .splitLine .inLine{
+    border-top:2px solid rgb(32,32,32);
+    width:8%;
+    position: absolute;
+    bottom:0px;
+    left:0;    
+}
+
